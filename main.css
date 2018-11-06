@@ -1,100 +1,61 @@
 body {
-    background-image: url("images/stars.gif");
-    background-repeat: repeat;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("images/wallpaper.jpg");
+    /* Center and scale the image nicely */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: rgb(6, 32, 63);
+    font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
+    margin: 0px;
 }
 .container {
     display: flex;
     flex-direction: column;
-    min-height: 18vh;
+    min-height: 20vh;
     flex-grow: 1;
-    min-width: 100vw;
-    background-color:rgb(233, 197, 37);
-    border-bottom: 3px ridge gray;
+    min-width: 100%;
+    background-color:rgb(248, 3, 117);
     top: 0px;
+    width: 100%;
 }
-#main-view {
-    display: flex;
-    flex-direction: row;
-}
-
 .button {
-    padding: 3px;
+    padding: 4px;
+    margin: 4px;
     border-style:solid;
     border-width: 2px;
     font-size: 18px;
-    font-family: Impact,'Arial Narrow Bold', sans-serif;
-    color: black;
-    background-color:orange;
+    font-family: 'Poller One', cursive;
+    color: rgb(128, 0, 179);
+    background-color:rgb(0, 217, 255);
+    border-radius: 10px;
 }
-.aside {
-    width: 30%;
-    background: rgba(241, 236, 236, 0.774);
-    border-left: 3px ridge gray;
-    box-sizing: border-box;
-    float: right;
-    flex-grow: 1;
-    color: blue;
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(184, 250, 3);
+
+}
+.content {
+    background: white;
+    width: 80%;
+    margin-top: 30px;
+    padding: 10px;
+    margin-left: 8%;
+    margin-right: 10%;
+    padding: 20px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: hotpink;
     font-family: Arial, Helvetica, sans-serif;
 }
-article {
-    width: 70%;
-    background: #2b2b2bcb;
-    padding: 5px;
-    margin: 0;
-    flex-grow: 1;
-    color: rgb(182, 182, 182);
-    font-family: Arial, Helvetica, sans-serif;
+h1 {
+    font-family: 'Poller One', cursive;
+    color:rgb(0, 217, 255);
 }
 .footer {
-    background-color: rgb(233, 197, 37);
     width: 100vw;
     padding: 5px;
-    color: rgb(46, 46, 46);
+    background-color:rgb(248, 3, 117);
     bottom: 0px;
-
-}
-.textDiv {
-    padding:40px;
-    margin:40px;
-    border-style:solid;
-    border-width:5px;
-    border-color:#222222;
-}
-.roundedCorners {
-    border-radius: 18px;
-    background:rgb(233, 197, 37);
-    color: black;
-    padding: 20px; 
-    width: 200px;
-    height: 13px; 
-} 
-.roundButton {
-    border-radius: 18px;
-    background:rgb(233, 197, 37);
-    color: black;
-    font-size: 18px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
-}
-
-#about {
-    padding: 30px;
-    background: rgba(128, 128, 128, 0.521);
-    flex: row;
-    flex-direction: right;
-}
-#newsTwitter {
-    display: flex;
-    flex-direction: row;
-
-}
-
-#newsAside {
-    width: 50%;
-    float: right;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 5px;
-}

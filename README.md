@@ -1,2 +1,0 @@
-# AmazonWebsite
-First Project
